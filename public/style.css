@@ -1,0 +1,82 @@
+body {
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#action {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-block: 12px;
+}
+
+#create {
+  background-color: #b0f595;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 100px;
+  border-color: none;
+}
+
+#put {
+  background-color: #f3c548;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 100px;
+  border-color: none;
+  margin-inline: 6px;
+}
+
+#delete {
+  background-color: #f34848;
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 100px;
+  border-color: none;
+}
+
+#input {
+  padding-inline: 20px;
+  width: 30rem;
+  padding-block: 10px;
+  border-radius: 100px;
+  border-color: none;
+}
+
+#notes {
+  width: 50rem;
+  padding-inline: 50px;
+  border-radius: 100px;
+  border-color: none;
+  margin-block: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.noteDiv {
+  display: flex;
+  padding-block: 5px;
+  padding-inline: 60px;
+  border-radius: 100px;
+  background-color: rgb(189, 189, 189);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#updateNote {
+  padding-inline: 20px;
+  width: 30rem;
+  padding-block: 10px;
+  border-radius: 100px;
+  border-color: none;
+}
